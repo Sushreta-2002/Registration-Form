@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+    <link rel="stylesheet" href="style.css.css">
+</head>
+<body>
+    <form action="">
+      <div class="container">
+        <h1><U><center>Registration Form</center></U></h1>
+        <p><i>Please enter your <B>name</B> and <B>email</B> correctly, otherwise the registration will be canceled. Register the form to get connected with us...</i></p>
+        <hr/>
+        <label><b>First Name : <font color="red">*</font></b></label>
+        <input type="text" placeholder="First Name"  id="register" required/>
+        <br><br>
+        <label><b>Last Name : <font color="red">*</font></b></label>
+        <input type="text" placeholder="Last Name" id="register" required/>
+        <br><br>
+        <label><b>email : <font color="red">*</font></b></label>
+        <input type="text" placeholder="email" id="register"  required/>
+        <br><br>
+        <label><b>Age : </b></label>
+        <input type="text" placeholder="your age" id="register"  required/>
+        <br><br>
+        <label><b>Gender : <font color="red">*</font></b></label>
+        <input type="radio" required/>
+        <span id="gender">Male</span>
+        <input type="radio"/>
+        <span id="gender">Female</span>
+        <input type="radio"/>
+        <span id="gender">Other</span>
+        <br><br>
+        <label><b>Mobile Number : <font color="red">*</font></b></label>
+        <input type="text" placeholder="ph no." id="register"  required/>
+        <br><br>
+        <label><b>Password : <font color="red">*</font></b></label>
+        <input type="text" placeholder="Password" id="register"  required/>
+        <br><br>
+        <label><b>Add Profile photo : <font color="red">*</font></b></label>
+        <input type="file" placeholder="Choose file" id="register"  required/>
+        <br><br>
+        <label><b>Add your education : <font color="red">*</font></b></label>
+        <input type="datalist" placeholder="add your school/collage" id="register"  required/>
+        <br><br>
+        <label><b>Where did you hear about us? </b></label>
+        <select>
+          <option>Choose an option</option>
+            <option>From our youtube channel</option>
+            <option>From our website</option>
+            <option>From our Telegram/Instagram channel</option>
+            <option>From any other sourse</option>
+        </select>    
+        <br><br>
+        <label><b>Why do you want to register here? </b></label>
+        <br><br>
+        <input type="text" placeholder="why do you want to register here.." id="bio"  required/>
+        <br>
+        <hr/>
+        <center><button type="submit" class="submit">Submit</button></center>
+      </div>
+    </form>  
+</body>
+</html>
