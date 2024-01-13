@@ -1,0 +1,52 @@
+body{
+    background-image: url("background2.jpg");
+    background-size: 150%;
+    background-position: -20px 0px;
+}
+.container {
+    max-width: 800px;
+    margin: 40px auto;
+    margin-bottom: 40px;
+    padding: 0.5em;
+    background-color: rgb(174, 204, 237);
+    font-size: 20px;
+    font-family: 'lucida caligraphy';
+    border-radius:40px;
+    color:rgb(32, 32, 63);
+}
+ h1 {
+    font-family: 'Sevillana', cursive;
+    padding: 0.3em;
+ }
+label {
+    display:inline-table;
+    height: 20px;;
+    width: 100%;
+    font-size: 20px;
+} 
+input#register{
+    width: 770px;
+}
+
+input#bio{
+    width:770px;
+    height:70px;
+}
+span#gender{
+    font-size: 17px;
+}
+.submit{
+    font-size: 20px;
+    background-color: rgb(47, 8, 92);
+    height: 30px;
+    width: 100px;
+    color: azure;
+    border-radius:20px;
+}
+.submit:hover{
+    background-color: rgb(118, 112, 190);
+}
+select{
+    width: 770px;
+    height: 22px;
+}
